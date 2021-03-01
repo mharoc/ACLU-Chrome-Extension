@@ -3,5 +3,17 @@
     "name": "ACLU Facebook Ad Creator",
     "version": "1.0.0",
     "description": "[placeholder]",
-    "short_name": "[placeholder]"
+    "short_name": "[placeholder]",
+    "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "css": ["background.css"],
+          "js": ["background.js"]
+        }
+      ],
+    "browser_action": {
+        "default_title": "Does a thing when you do a thing",
+        "default_popup": "popup.html"
+    }
 }
