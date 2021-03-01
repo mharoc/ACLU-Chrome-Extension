@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "[placeholder]",
     "short_name": "[placeholder]",
-    "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+    "permissions": ["declarativeContent", "storage", "<all_urls>"],
     "content_scripts": [
         {
           "matches": ["<all_urls>"],
