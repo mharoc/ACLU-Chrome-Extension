@@ -3,6 +3,32 @@ html {
   height: 580px;
 }
 
+:root {
+  --caramel: rgba(210, 149, 115, 1);
+  --cinnamon: rgba(190, 114, 097, 1);
+  --light: rgba(159, 087, 084, 1);
+  --city: rgba(125, 068, 072, 1);
+  --dark: rgba(104, 066, 066, 1);
+  --italian: rgba(073, 034, 051, 1);
+  --alphaitalian: rgba(073, 047, 072, 0.3);
+  --lightvanilla: rgba(233, 190, 155, 0.35);
+  --lightervanilla: rgba(233, 190, 155, 0.15);
+  --darkvanilla: rgba(233, 190, 155, 0.6);
+  --vanilla: rgba(233, 190, 155, 1);
+}
+
+body {
+  background-color: var(--caramel);
+  font-family: "Montserrat", sans-serif;
+  color: var(--italian);
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
 .steps {
   width: 25%;
   height: 5%;
@@ -17,7 +43,7 @@ div#arrow {
   background: transparent; 
   border: 1px solid var(--light);
   border-radius: 6 px;
-  padding 2 px 8 px; 
+  padding: 2 px 8 px; 
 
 }
 
@@ -60,17 +86,6 @@ div#arrow {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
 }
 
 /* Number text (1/3 etc) */

@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "[placeholder]",
     "short_name": "[placeholder]",
-    "permissions": ["declarativeContent", "storage", "<all_urls>"],
+    "permissions": ["declarativeContent", "storage"],
     "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
     "background": {
         "scripts": ["jquery-3.5.1.min.js", "background.js"],
